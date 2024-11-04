@@ -3,6 +3,7 @@
 ## Aufgabe a Konstruktion von Graphen
 
 Konstruieren Sie einen zusammenhängenden und schlichten Graphen, der
+
 - einen Knoten mit Grad 9,
 - einen Knoten mit Grad 8,
 - vier Knoten mit Grad 5,
@@ -15,7 +16,8 @@ adjazent zu den Knoten von Grad 2 sein, Knoten mit Grad 5 und 2 sollen ebenso ni
 
 ## Aufgabe b Konstruktion von Graphen
 
- Konstruieren Sie einen zusammenhängenden und schlichten Graphen, der
+Konstruieren Sie einen zusammenhängenden und schlichten Graphen, der
+
 - einen Knoten mit Grad 9,
 - einen Knoten mit Grad 8,
 - drei Knoten mit Grad 5,
