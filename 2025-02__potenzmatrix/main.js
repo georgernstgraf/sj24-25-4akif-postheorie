@@ -1,28 +1,43 @@
-const adj = [
-  [0, 1, 0],
-  [1, 0, 1],
-  [0, 1, 0],
+const adj1 = [
+    [0, 1, 0],
+    [1, 0, 1],
+    [0, 1, 0],
 ];
+const adj2 = [
+    [0, 1, 1],
+    [1, 0, 1],
+    [1, 1, 0],
+];
+const adj = adj2;
 function printAdj(matrix) {
-  for (let z = 0; z < matrix.length; z++) {
-    console.log(`Zeile: ${z} lautet: ${matrix[z].join(" ")}`);
-  }
-}
-function quadrat(matrix) {
-  const rv = [];
-  for (let z = 0; z < matrix.length; z++) {
-    const row = [];
-    for (let s = 0; s < matrix[z].length; s++) {
-      row.push(NaN); // erg: unbekannt
+    for (let z = 0; z < matrix.length; z++) {
+        console.log(`Zeile ${z}: ${matrix[z].join(" ")}`);
     }
-    rv.push(row);
-  }
-  for (let z = 0; z < matrix.length; z++) {
-    for (let s = 0; s < matrix[z].length; s++) {
-      // TODO
-    }
-  }
-  return rv;
 }
+function multiply(m_A, m_B) {
+    // TODO
+    const rv = [];
+    for (let z = 0; z < m_A.length; z++) {
+        rv.push(Array(m_A[z].length).fill(NaN));
+    }
+    for (let z = 0; z < m_A.length; z++) {
+        for (let s = 0; s < m_A[z].length; s++) {
+            let wert = 0;
+            for (let i = 0; i < m_A[z].length; i++) {
+                wert += m_A[z][i] * m_B[i][s];
+            }
+            rv[z][s] = wert;
+        }
+    }
+    return rv;
+}
+console.log("Adjazenzmatrix:");
 printAdj(adj);
-printAdj(quadrat(adj));
+
+console.log("Quadrat:");
+const a2 = multiply(adj, adj);
+printAdj(a2);
+
+console.log("Kubik:");
+const a3 = multiply(a2, adj);
+printAdj(a3);
