@@ -1,5 +1,13 @@
 # sj24-25-4akif-postheorie
 
+## 2025-04-23__Anm._Graphenprogramm
+
+- OBS Studio empfohlen
+- Ideen für den output: <https://grafg1.spengergasse.at/grg/dijkstra-web/>
+- github.com:georgernstgraf/dijkstra-cytoscape.js
+- random graphs: <https://github.com/georgernstgraf/graphsupply.git> (ist auf
+grafg1 online)
+
 ## 2025-02-19 HÜ
 
 Erweiterung des java-zeichne-quadrat codes wie folgt:
