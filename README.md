@@ -1,5 +1,7 @@
 # sj24-25-4akif-postheorie
 
+## 7. Juni 23:59 Deadline abgabe Graphenprogramm 100P
+
 ## 2025-04-23__Anm._Graphenprogramm
 
 - OBS Studio empfohlen
@@ -30,7 +32,6 @@ PLF Sommersemester
 - - 7. Mai
 - - 21. Mai
 
-- 1. Juni 23:59 Deadline abgabe Graphenprogramm 100P
 -
 - Graphenprogramm m. Abgabegespräch Matrixmultiplikation
 
