@@ -2,14 +2,16 @@
 
 ## Erfordernisse für das Abgabe-Projekt
 
-- Erstellen Sie ein Programm in Java, C#, Python, Javascript (andere Programmiersprachen bitte nach Rücksprache)
-- Das Programm soll die Adjazenzmatrix eines Graphen aus einer Datei (csv) einlesen
+- Erstellen Sie ein Programm in Java, C#, Python, Javascript (andere
+Programmiersprachen bitte nach Rücksprache)
 
 Das Programm soll zumindest folgende Berechnungen durchführen:
 
+- Das Programm soll die Adjazenzmatrix eines Graphen aus einer Datei (csv) einlesen
 - Bestimmung der Distanzen und Exzentrizitäten aller Knoten
 - Radius, Durchmesser, Zentrum
 - sinnvolles Ausmaß an erklärenden Kommentaren im Code
+- für die Minimalaufgaben KEIN Framework verwenden, sondern selber coden!
 
 ## Gimmicks für "Note < 4"
 
@@ -17,6 +19,7 @@ Das Programm soll zumindest folgende Berechnungen durchführen:
 - Grafische Benutzeroberfläche (Web / Standalone)
 - Eulersche Linien/Zyklen
 - Spannbäume/Gerüste
+- Breitensuche / Tiefensuche
 - Dijkstra
 - Starke Zusammenhangskomponente
 - Blöcke (schwierig!)
